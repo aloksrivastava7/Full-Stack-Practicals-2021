@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1em;
+  font-family: sans-serif;
+  color: grey;
+  background-color: yellow;
+}
+table,th,td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  text-align: center;
+  padding: 10px;
+}
+th {
+  text-align: center;
+}
