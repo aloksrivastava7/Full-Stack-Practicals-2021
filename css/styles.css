@@ -1,3 +1,6 @@
+body {
+  background-color:#D4F0FF;
+}
 h1 {
   text-align: center;
   border-style: solid;
@@ -7,9 +10,21 @@ h1 {
   color: grey;
   background-color: yellow;
 }
+h2{
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  border-width: medium;
+  border-color: black;
+  background-color: yellow;
+  border-radius: 5em;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
 table,th,td {
   border: 2px solid black;
   border-collapse: collapse;
+  background-color: silver;
 }
 th,td {
   text-align: center;
