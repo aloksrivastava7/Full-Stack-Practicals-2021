@@ -1,16 +1,8 @@
 body {
   background-color:#D4F0FF;
 }
-h1 {
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 1em;
-  font-family: sans-serif;
-  color: grey;
-  background-color: yellow;
-}
-h2{
+h1{
+  font-family: cursive;
   text-align: center;
   border-style: solid;
   border-width: 10px;
@@ -21,10 +13,15 @@ h2{
   padding-top: 3px;
   padding-bottom: 3px;
 }
+h2 {
+  color: blue;
+  font-family: cursive;
+}
 table,th,td {
+  font-family: sans-serif;
   border: 2px solid black;
   border-collapse: collapse;
-  background-color: silver;
+  background-color: #FFFB78;
 }
 th,td {
   text-align: center;
