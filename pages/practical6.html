@@ -2,10 +2,127 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Practical 6/</title>
+    <title>Practical 6</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .heading {
+        color: white;
+        font-size: 34px;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .container {
+        display: inline-flex;
+      }
+      .image {
+        border-radius: 10px;
+      }
+      img {
+        border-radius: 10px;
+        width: 100%;
+        height: 150px;
+      }
+      .button {
+        margin-top: 10px;
+        display: block;
+        font-family: sans-serif;
+        color: white;
+        border-radius: 10px;
+        height: 35px;
+        background-color: red;
+      }
+      #card-1 {
+        margin: 20px;
+        border: 2px;
+        border-radius: 10px;
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        text-align: justify;
+        padding: 20px;
+      }
+      #card-2 {
+        margin: 20px;
+        border: 2px;
+        border-radius: 10px;
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        text-align: justify;
+        padding: 20px;
+      }
+      #card-3 {
+        margin: 20px;
+        border: 2px;
+        border-radius: 10px;
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        text-align: justify;
+        padding: 20px;
+      }
+      #card-4 {
+        margin: 20px;
+        border: 2px;
+        border-radius: 10px;
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        text-align: justify;
+        padding: 20px;
+      }
+    </style>
   </head>
-  <body>
-    <span style="color: red; font-size: 20pt"><b>Practical 6: Create a Card Layout using CSS layout properties</b></span><hr>
+  <body style="background-color:silver">
+    <p class = "heading"><b>PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES</b></span>
+      <div class="container">
+      <div class="card" id="card-1">
+        <div class="image">
+        <img src="../assets/intro_html.png" alt="">
+      </div>
+        <span style="text-align:center"><h3>Introduction to HTML</h3></span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         <div class="button">
+          <a href="#">Read More</a>
+         </div>
+      </div>
+      <div class="card" id="card-2">
+        <div class="image">
+        <img src="../assets/intro_css.png" alt="" width="100%" height="150px">
+      </div>
+        <span style="text-align:center"><h3>Introduction to HTML</h3></span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         <div class="button">
+          <a href="#">Read More</a>
+         </div>
+      </div>
+      <div class="card" id="card-3">
+        <div class="image">
+        <img src="../assets/intro_js.jpg" alt="" width="100%" height="150px">
+      </div>
+        <span style="text-align:center"><h3>Introduction to HTML</h3></span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         <div class="button">
+          <a href="#">Read More</a>
+         </div>
+      </div>
+      <div class="card" id="card-4">
+        <div class="image">
+        <img src="../assets/intro_bootstrap.png" alt="" width="100%" height="150px">
+      </div>
+        <span style="text-align:center"><h3>Introduction to HTML</h3></span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+         <div class="button">
+          <a href="#">Read More</a>
+         </div>
+      </div>
+    </div>
     <hr>
     <p align="center"><b><a href="../index.html">HOME</a></b></p>
   </body>
