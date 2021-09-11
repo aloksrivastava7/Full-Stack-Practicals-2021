@@ -160,43 +160,17 @@
         height: 75px;
         background-color: #D37CAD;
       }
-      .show-btn, hide-btn {
-        font-size: 50px;
-        color: white;
-        line-height: 60px;
-        display: none;
-      }
-      .show-btn {
-        float: right;
-      }
-      #chk {
-        position: absolute;
-        visibility: hidden;
-        z-index: -10;
-      }
-
-      @@media (max-width: 800px) {
-        .show-btn, hide-btn {
-          display: block;
-        }
-      }
     </style>
   </head>
   <body>
     <div class="navbar">
       <input type="checkbox" id="chk">
-      <label for="chk" class="show-btn">
-        <i class="fas fa-bars"></i>
-      </label>
       <ul style="display:inline-flex">
         <a href="#" class="tabs" style="text-decoration:none"><b>HOME</b></a>
         <a href="#section2" class="tabs" style="text-decoration:none"><b>ABOUT US</b></a>
         <a href="#section1" class="tabs" style="text-decoration:none"><b>TEAM</b></a>
         <a href="#section3" class="tabs" style="text-decoration:none"><b>TECHNOLOGIES</b></a>
         <a href="#section4" class="tabs" style="text-decoration:none"><b>CONTACT</b></a>
-        <label for="chk" class="show-btn">
-          <i class="fas fa-times"></i>
-        </label>
       </ul>
     </div>
     <div class="banner">
